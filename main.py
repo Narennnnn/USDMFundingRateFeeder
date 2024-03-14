@@ -82,10 +82,11 @@ print("Step 1: Get launch times for specified coins - Finished")
 # Define your PostgreSQL connection parameters
 host = "localhost"
 port = "5432"
-user = "postgres"
-password = "pass"
-database = "postgres"
-table_name = "fundingrate"
+user = "naren"
+password = "naren"
+database = "exchanges_data"
+table_name = "fundingRateHistoricalBinance"
+
 
 
 # Create the initial PostgreSQL connection
